@@ -40,4 +40,4 @@ A conversão do modelo final para o formato `.tflite`. Esta etapa gera os binár
 ---
 
 ## Integração com o Firmware
-Os arquivos gerados ao final do notebook (`model_data.h` e `scaler.npz`) devem ser movidos para o repositório de firmware para que a predição em hardware funcione corretamente.
+O arquivo gerado ao final do notebook (`model_data.h`) deve ser movido, ou copiar o conteúdo do arquivo, para o repositório de firmware para que a predição em hardware funcione corretamente.
